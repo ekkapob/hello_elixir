@@ -2,7 +2,7 @@
   <h2>Welcome to Phoenix!</h2>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
 </div>
-
+<a href="<%= page_path(@conn, :index) %>">To the Welcome Page!</a>
 <div class="row marketing">
   <div class="col-lg-6">
     <h4>Resources</h4>
